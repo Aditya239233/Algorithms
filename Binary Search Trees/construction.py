@@ -5,8 +5,6 @@ class BST:
         self.right = None
 
     def insert(self, value):
-        # Write your code here.
-        # Do not edit the return statement of this method.
         currentNode = self
         while True:
             if value < currentNode.value:
@@ -24,7 +22,6 @@ class BST:
         return self
 
     def contains(self, value):
-        # Write your code here.
         currentNode = self
         while currentNode is not None:
             if value < currentNode.value:
